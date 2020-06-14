@@ -56,9 +56,13 @@ class Navbarr extends Component {
           </Nav>
           {authedUser && (
             <NavItem>
-              Hello, {userName}
+              <span style={{ marginRight: '10px' }}>Hello, {userName}</span>
               <img
-                style={{ height: '30px', borderRadius: '50%' }}
+                style={{
+                  height: '30px',
+                  borderRadius: '50%',
+                  marginRight: '10px'
+                }}
                 src={userImg}
                 alt='error'
               />
@@ -67,7 +71,7 @@ class Navbarr extends Component {
                 style={{ textDecoration: 'none' }}
                 to='/login'
               >
-                LogOut
+                Logout
               </NavLink>
             </NavItem>
           )}

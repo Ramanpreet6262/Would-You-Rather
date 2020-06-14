@@ -15,7 +15,7 @@ const PrivateRoute = ({ component: Component, auth, ...rest }) => (
               state: { from: props.location.pathname }
             }}
           />
-          {alert('Please Sign In First')}
+          {/* {alert('Please Sign In First')} */}
         </div>
       )
     }
