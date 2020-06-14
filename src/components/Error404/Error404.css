@@ -1,0 +1,40 @@
+.page_404 {
+    font-family: 'Arvo', serif;
+    margin-top: 125px;
+    text-align: center;
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.four_zero_four_bg {
+    background-image: url("../../assets/error404.gif");
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.four_zero_four_bg h1 {
+    font-size: 80px;
+}
+
+.contant_box_404 h3 {
+    font-size: 35px;
+}
+
+.link_404 {
+    color: #fff !important;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #337C31;
+    margin: 20px 0;
+    display: inline-block;
+    text-decoration: none !important;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #888888;
+}
+
+.contant_box_404 {
+    margin-top: -60px;
+}

@@ -1,0 +1,79 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.questions_list {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  justify-content: center;
+}
+
+.cardAlign {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  justify-content: center;
+}
+
+.smallCard {
+  width: 350px;
+  margin-top: 3%;
+  justify-content: center;
+}
+
+.blue {
+  text-align: center;
+  color: blue;
+}
+
+.divider {
+  border-right: 1px solid #d4d4d5;
+  height: 80%;
+  top: 10px;
+  position: absolute;
+  right: 25%;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.radioo {
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.nav li:first-child {
+  padding-left: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}

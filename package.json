@@ -1,0 +1,29 @@
+{
+  "name": "would-you-rather",
+  "homepage": "http://jaspreet-singh37349.github.io/Would-You-Rather-Udacity",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-redux-loading": "^1.0.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "1.1.1",
+    "reactstrap": "^8.4.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
