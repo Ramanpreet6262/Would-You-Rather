@@ -1,8 +1,6 @@
 {
   "name": "would-you-rather",
-  "homepage": "http://jaspreet-singh37349.github.io/Would-You-Rather-Udacity",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "bootstrap": "^4.4.1",
     "react": "^16.2.0",
